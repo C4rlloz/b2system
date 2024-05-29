@@ -49,7 +49,7 @@ function atualizaMenu() {
     var url_atual = window.location.href;
     // let baseUrl = "https://b2system.vercel.app/";
     let baseUrl = "https://b2systemsenac.vercel.app/";
-    if (url_atual.includes("http://127.0.0.1:5500/")) {
+    if (url_atual.includes("https://b2system-orcin.vercel.app/")) {
         baseUrl = "http://127.0.0.1:5500/";
     }
 
